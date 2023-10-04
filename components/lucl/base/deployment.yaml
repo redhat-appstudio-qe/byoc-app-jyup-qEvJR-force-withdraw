@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: lucl
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-eirk-tenant/byoc-app-jyup/lucl@sha256:a9750165d79096dfd52530d211e526a589eb124514ea5ab17721b2042e5976f1
         name: my-java-quarkus
         ports:
         - containerPort: 8081
